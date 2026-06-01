@@ -1,0 +1,28 @@
+# --- Python Virtual Environments ---
+venv/
+ENV/
+env/
+.venv/
+
+# --- Local Vector Databases (Crucial for RAG) ---
+db_storage/
+.chroma/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Python Runtime Caches ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# --- Environment Variables & Sensitive Keys ---
+.env
+*.env.local
+
+# --- (Optional) Personal Raw Data ---
+# If your diary notes contain private passwords or info, uncomment the line below:
+# data_vault/

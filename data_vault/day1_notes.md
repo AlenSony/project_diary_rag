@@ -1,0 +1,2 @@
+Date: 2026-06-01
+Today I built the authentication routing using FastAPI. I ran into a major bug where token verification failed because the secret key environment variable wasn't loading correctly. Fixed it by implementing python-dotenv. Note for tomorrow: update the database models to encrypt user passwords using bcrypt.
